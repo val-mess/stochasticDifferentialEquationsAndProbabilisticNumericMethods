@@ -93,14 +93,14 @@ def SolExa(sigma,T,N,X0):
     return X_N
     
 
-# plt.grid()
-# plt.plot(np.linspace(0,T,N),SchemaEuler(sigma,T,N,1),label="Euler")
-# plt.plot(np.linspace(0,T,N),SchemaMilstein(sigma,sigmaPrime,T,N,1),label="Milstein")
-# plt.plot(np.linspace(0,T,N),SolExa(sigma,T,N,1),label="Exacte")
-# plt.xlabel("$t$")
-# plt.ylabel("$(X_t)_{t\geqslant 0}$")
-# plt.title("Simulation de $(X_t)_{t\geqslant 0}$")
-# plt.legend()
+plt.grid()
+plt.plot(np.linspace(0,T,N),SchemaEuler(sigma,T,N,1),label="Euler")
+plt.plot(np.linspace(0,T,N),SchemaMilstein(sigma,sigmaPrime,T,N,1),label="Milstein")
+plt.plot(np.linspace(0,T,N),SolExa(sigma,T,N,1),label="Exacte")
+plt.xlabel("$t$")
+plt.ylabel("$(X_t)_{t\geqslant 0}$")
+plt.title("Simulation de $(X_t)_{t\geqslant 0}$")
+plt.legend()
 
 def Schemas(sigma,sigmaPrime,T,N,X0):
     X0=1

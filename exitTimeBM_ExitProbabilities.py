@@ -63,7 +63,7 @@ def probaAbove(M):
     return p
 
 M=1000
-# simu=proba(M)
+#simu=proba(M)
 # print('Proba de sortie par -a :',simu[0])
 # print('Valeur théorique :',b/(a+b))
 # print('Proba de sortie par b :',simu[1])

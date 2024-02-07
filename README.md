@@ -3,6 +3,6 @@ These are my projects for the course Stochastic Differential Equations And Proba
 You will find 6 projects :
 
 1. Exit time for a brownian motion : simulation of a BM and its first exit time (with probability of exit)
-2. Equation of Fisher-Wright-Diffusion : simulation of approximate solutions by Euler scheme and Milstein scheme and comparison with the exact solution
+2. Equation of Fisher-Wright-Diffusion : simulation of approximate diffusion solutions by Euler scheme and Milstein scheme and comparison with the exact solution
 3. k
 4. 

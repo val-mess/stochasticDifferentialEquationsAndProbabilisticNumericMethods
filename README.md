@@ -5,4 +5,6 @@ You will find 6 projects :
 1. Exit time for a brownian motion : simulation of a BM and its first exit time (with probability of exit)
 2. Equation of Fisher-Wright-Diffusion : simulation of approximate diffusion solutions by Euler scheme and Milstein scheme and comparison with the exact solution
 3. Simulation of SDE approximations by Euler scheme and Milstein scheme and comparison with the solution, computation of the error
-4. 
+4. Implementation of the MCMC algorithm of Metropolis Hasting to simulate a distribution
+5. Implementation of the MCMC algorithm of Gibbs Sampling to simulate a distribution
+6. 

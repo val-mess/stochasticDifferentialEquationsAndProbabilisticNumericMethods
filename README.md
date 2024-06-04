@@ -7,4 +7,4 @@ You will find 6 projects :
 3. Simulation of SDE approximations by Euler scheme and Milstein scheme and comparison with the solution, computation of the error
 4. Implementation of the MCMC algorithm of Metropolis Hasting to simulate a distribution
 5. Implementation of the MCMC algorithm of Gibbs Sampling to simulate a distribution
-6. 
+6. Implementation of an optimization algorithm by metaheuristic of the Simulated Annealing
